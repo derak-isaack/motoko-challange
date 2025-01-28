@@ -67,7 +67,7 @@ actor {
     }
   };
 
-//1. Function to retrieve auction data. 
+// 1. Function to retrieve auction data. 
   public query func getOverviewList() : async [AuctionOverview] {
     func getOverview(auction : Auction) : AuctionOverview = {
       id = auction.id;
