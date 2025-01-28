@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "motoko-auction-challange-backend": {
+      "main": "src/motoko-auction-challange-backend/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "internet_identity": {
+            "type": "custom",
+            "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+            "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz",
+            "remote": {
+                "id": {
+                    "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+                }
+            },
+  "output_env_file": ".env",
+  "version": 1
+}
+}
